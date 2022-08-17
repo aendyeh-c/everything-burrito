@@ -2,13 +2,13 @@ import React from 'react'
 import burritoSvg from './../assets/burrito.svg'
 
 type Props = {
-  foo?: number
+  scale?: number
 }
 
-function Burrito({ foo }: Props) {
+function Burrito({ scale = 0.1 }: Props) {
   return (
     <div className='burrito-wrapper'>
-      <img src={burritoSvg} alt="burrito" />
+      <img src={burritoSvg} alt="burrito" style={{width: `${scale * 100}%`}} />
     </div>
   )
 }
