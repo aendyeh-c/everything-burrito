@@ -10,7 +10,7 @@ function Header(props: Props) {
       <div className='header-logo'>
         <Burrito scale={0.4} />
       </div>
-      <div className='header-buttons c'>
+      <div className='header-buttons'>
         <nav className='header-nav'>
           <div className='padded-button'>
             <span>Home</span>
