@@ -8,7 +8,6 @@
   height: 55px;
 
   .header-buttons {
-    height: inherit;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -20,7 +19,6 @@
     .header-nav,
     .header-actions {
       display: flex;
-      height: inherit;
     }
 
     .header-nav {
