@@ -21,7 +21,7 @@
                 @@@@@@@                        @@@@@@@                       
 ```
 
-Aims to use absolutely everything
+Aims to use absolutely everything 🌯 .
 
 # Installation
 
