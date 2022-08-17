@@ -12,20 +12,28 @@ function Header(props: Props) {
       </div>
       <div className='header-buttons'>
         <nav className='header-nav'>
-          <div className='padded-button'>
-            <span>Home</span>
-          </div>
-          <div className='padded-button'>
-            <span>About</span>
-          </div>
+          <a href='route'>
+            <div className='padded-button'>
+              <span>Home</span>
+            </div>
+          </a>
+          <a href='route'>
+            <div className='padded-button'>
+              <span>About</span>
+            </div>
+          </a>
         </nav>
         <div className='header-actions'>
-          <div className='padded-button'>
-            <div>Sign up</div>
-          </div>
-          <div className='padded-button'>
-            Sign in
-          </div>
+          <a href='route'>
+            <div className='padded-button'>
+              <div>Sign up</div>
+            </div>
+          </a>
+          <a href='route'>
+            <div className='padded-button'>
+              Sign in
+            </div>
+          </a>
         </div>
       </div>
     </header>
